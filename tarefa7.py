@@ -43,3 +43,8 @@ st.image("2.jpg", "Colar Gargantilha Unaquita Trançado A Mao Folheado A Ouro")
 st.image("3.jpg", "Colar Gargantilha Corrente Elo Portugues Coral Facetado Folheados A Ouro")
 st.image("4.jpeg", "Colar Gargantilha De Elo Portugues, Sodalita E Lapis Lazuli Folheado A Ouro")
 st.image("5.jpg", "Colar Gargantilha Turmalina Negra Elo Português Folheado A Ouro")
+ 
+
+plt.figure(figsize=(5, 6))
+plt.plot(lista_preco, lista_joias, 'o-r')
+st.pyplot(plt.gcf())
